@@ -1,0 +1,66 @@
+select,input {outline:none;}
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.container{
+
+}
+.title{margin: 10px 10px 20px 10px;}
+
+.from{
+text-align: center;
+background-color: bisque;
+padding-top: 20px;
+width: 300px;
+height: 180px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+border: 4px solid rgb(238, 143, 143);
+border-radius: 10px;
+box-shadow: 3px 3px 3px 3px gray ;
+margin-top: 200px;
+}
+
+.input{
+height: 30px;
+border-radius: 10px;
+border:none;
+padding-left: 20px;
+border-bottom: 2px solid rgb(109, 63, 63);;
+border-top: 2px solid rgb(109, 63, 63);;
+background-color: rgba(201, 149, 149, 0.993);
+box-shadow: 3px 3px 3px 3px gray;
+}
+
+.select{
+box-shadow: 3px 3px 3px 3px gray ;
+border:none;
+padding: 5px;
+font-size: 16px;
+background-color: rgba(201, 149, 149, 0.993);
+border-radius: 10px;
+border-bottom: 2px solid rgb(109, 63, 63);;
+border-top: 2px solid rgb(109, 63, 63);;
+}
+.select::-webkit-scrollbar {
+width: 8px;
+}
+.select::-webkit-scrollbar-track {
+background: rgb(109, 63, 63);;       
+}
+.select::-webkit-scrollbar-thumb {
+background-color: blue;    
+border-radius: 20px;       
+border: 2px solid rgb(109, 63, 63);  
+}
+.option{
+width: 100PX;
+}
+.blockInput{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
